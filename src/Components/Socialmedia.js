@@ -7,9 +7,9 @@ import './Socialmedia.css';
 function Socialmedia() {
     return (
         <div className="social-media">
-            <a href="https://github.com/DivPandey/"><FontAwesomeIcon icon={faGithub} /></a>
-            <a href="https://www.linkedin.com/in/divyanshu-pandey-0418a12ab"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-            <a href="mailto:divyanshu1106@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href="https://github.com/DivPandey/" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="https://www.linkedin.com/in/divyanshu-pandey-0418a12ab" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+            <a href="mailto:divyanshu1106@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
         </div>
     )
 }

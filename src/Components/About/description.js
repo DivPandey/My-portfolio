@@ -1,5 +1,5 @@
 import './description.css';
-import Photo from './Divyanshu.png';
+import Photo from './Divyanshu.jpg';
 
 function Description() {
     return (

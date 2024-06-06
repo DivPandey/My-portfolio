@@ -1,6 +1,11 @@
 * {
     background-color: #141212;
 }
+/* 
+.my-name-container, .headroom {
+    width: 100%;
+    height: 100%;
+} */
 
 #name {
     background-color: #141212;
@@ -9,10 +14,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    ;
-    size: 100%;
-    margin: 8vw;
+    align-items: center;;
+    width: 100%;
+    height: 75vh;
 }
 
 h1 {

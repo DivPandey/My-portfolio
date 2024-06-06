@@ -10,8 +10,8 @@ const navLinks = [
     { name: 'Skills', href: '/skills' },
     { name: 'Education', href: '/education' },
     { name: 'Experience', href: '/experience' },
-    { name: 'Projects', href: '/projects' },
-    { name: 'Resume', href: '/resume' },
+    // { name: 'Projects', href: '/projects' },
+    { name: 'Contact Us', href: '/contactus' },
 ];
 
 const Navbar = () => {

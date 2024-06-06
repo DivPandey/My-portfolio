@@ -10,7 +10,7 @@ function Myname({
   duration = 1000
 }) {
   return (
-    <HeadRoom>
+    <HeadRoom className="my-name-container">
     <div id="name">
           <div className="My_Name">
             <h1 className="boundry"> &lt;</h1>  

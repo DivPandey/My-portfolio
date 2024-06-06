@@ -6,6 +6,7 @@ import About from './Components/About/about';
 import Skills from './Components/Skills/skills'
 import Education from './Components/Education/education.js';
 import Experience from './Components/Experience/experience.js';
+import ContactUs from './Components/ContactUs/contactus.js';
 import React from 'react';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
                 text={[
                   "Hello I am Computer Science Student",
                 "Aspiring Software Engineer",
-                "AI ML entusiast",
+                "AI ML enthusiast",
                 "I am a Competitive Programmer",
                 ]}
                 TypingSpeed={100}
@@ -33,6 +34,7 @@ function App() {
 
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/contactus" element={<ContactUs/>} />
           </Routes>
         </div>
       </Router>

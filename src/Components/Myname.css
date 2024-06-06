@@ -1,23 +1,48 @@
-*{
+* {
     background-color: #141212;
 }
 
-#name{
+#name {
     background-color: #141212;
-    color:white;
+    color: white;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;;
-    size:100%;
+    align-items: center;
+    ;
+    size: 100%;
     margin: 8vw;
 }
 
-h1{
-    font-size: 3vw;
+h1 {
+    font-size: 2vw;
 }
 
+.My_Name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    width: fit-content;
+    font-size: 1.5em;
+    text-decoration: solid;
+    margin-top: 10px;
+    line-height: normal;
+    background-color: #141212;
+}
 
+.name_write {
+    font-family: "Agustina Regular";
+    font-weight: bold;
+    font-variant-ligatures: no-common-ligatures;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    padding: 0 10px;
+    color: #fafcfe;
+    background-color: #141212;
+}
 
-
+.My_Name.boundry {
+    color: #fafcfb;
+    background-color: #141212;
+}

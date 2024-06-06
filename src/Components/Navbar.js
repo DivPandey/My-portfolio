@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import NavItem from './NavItem';
 import Div_logo from '../Assets/Div_logo.png';
+import HeadRoom from "react-headroom";
 
 const navLinks = [
     { name: 'Home', href: '/' },
@@ -21,9 +22,13 @@ const Navbar = () => {
     }
 
     return (
+        <HeadRoom>
         <nav className="navbar">
-            <div id="navbar-logo">
-                <img src={Div_logo} className="logo" alt="Divyanshu" />
+            
+            <div className='updated_logo'>
+            
+            <span className="updated_logo-name">Divyanshu Pandey</span>
+            
             </div>
             <ul className="navbar-links">
                 {navLinks.map((link) => (
@@ -39,6 +44,7 @@ const Navbar = () => {
                 ))}
             </ul>
         </nav>
+        </HeadRoom>
     );
 }
 

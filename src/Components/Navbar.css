@@ -1,12 +1,13 @@
-#navbar-logo:hover{
+#navbar-logo:hover {
     cursor: pointer;
-}  
+}
 
 .navbar {
     background-color: rgb(44, 42, 42);
 }
 
-.navbar-links, .navbar-links li {
+.navbar-links,
+.navbar-links li {
     background-color: transparent;
 }
 
@@ -14,8 +15,8 @@
     font-size: 5vw;
 }
 
-.navbar-links li{
-    list-style-type: none; 
+.navbar-links li {
+    list-style-type: none;
     color: white;
     position: relative;
 }
@@ -36,7 +37,7 @@
 }
 
 .navbar-links li::after {
-    transition:0.25s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    transition: 0.25s cubic-bezier(0.6, 0.04, 0.98, 0.335);
     content: "";
     position: absolute;
     width: 0%;
@@ -47,7 +48,7 @@
 }
 
 .navbar-links .w-full::after {
-    width:100%;
+    width: 100%;
 }
 
 li:hover::after {
@@ -113,3 +114,29 @@ img{
     height: 50%;
     width: 50%;
 } */
+
+.updated_logo {
+    display: block;
+    float: left;
+    font-size: 1.5em;
+    text-decoration: solid;
+    margin-top: 10px;
+    line-height: normal;
+    background-color: rgb(44, 42, 42);
+}
+
+.updated_logo-name {
+    background-color: rgb(44, 42, 42);
+    font-family: "Agustina Regular";
+    font-weight: bold;
+    font-variant-ligatures: no-common-ligatures;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    padding: 0 10px;
+    color: #f1f4f6;
+    
+}
+
+.grey-color {
+    color: #fafcfb;
+    background-color: rgb(44, 42, 42);
+}
